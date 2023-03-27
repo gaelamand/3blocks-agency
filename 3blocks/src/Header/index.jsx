@@ -1,8 +1,6 @@
 import React from "react";
 import { FaTwitter, FaDiscord} from "react-icons/fa";
 import { FiMail} from "react-icons/fi";
-
-import { Link } from "react-router-dom";
 import trois from '../assets/trois.png'
 
 

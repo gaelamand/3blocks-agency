@@ -1,0 +1,15 @@
+.grid {
+    margin: 20px 0 20px
+  }
+  
+  .box {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .box:hover {
+    background-color: #162031;
+    transform: scale(1.05);
+  }

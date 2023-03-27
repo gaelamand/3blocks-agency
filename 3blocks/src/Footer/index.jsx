@@ -3,7 +3,7 @@ import trois from '../assets/trois.png'
 
 const Footer = () => (
 
-        <footer className="footer p-10 bg-base-200 text-base-content">
+        <footer className="footer p-10 bg-base-200">
                 <div className="flex items-center justify-center">
                     <img className="w-7" src={trois} alt="Logo 3blocks" />
                     <span className="font-bold text-4xl">3blocks</span>

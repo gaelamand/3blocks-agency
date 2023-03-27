@@ -1,37 +1,36 @@
 import React from "react";
-import { FaTwitter, FaDiscord} from "react-icons/fa";
-import { FiMail} from "react-icons/fi";
 import trois from '../assets/trois.png'
 
+const Footer = () => (
 
-const Header = () => {
-  
-    return (
-        <header className="flex justify-between items-center pt-3 pl-32 pr-32">
-            <div className="flex items-center">
-                <img className="w-4" src={trois} alt="Logo 3blocks" />
-                <span className="font-bold text-xl">3blocks</span>
+        <footer className="footer p-10 bg-base-200 text-base-content">
+                <div className="flex items-center justify-center">
+                    <img className="w-7" src={trois} alt="Logo 3blocks" />
+                    <span className="font-bold text-4xl">3blocks</span>
+                </div>
+
+            <div>
+                <span className="footer-title">About us</span>
+                <a className="link link-hover">Vision</a>
+                <a className="link link-hover">Term of use</a>
             </div>
 
-            <ul className="flex justify-center space-x-4">
-                <li className="font-bold">Creation</li>
-                <li className="font-bold">Development</li>
-                <li className="font-bold">Finance</li>
-            </ul>
+            <div>
+                <span className="footer-title">Creation</span>
+                <a className="link link-hover">Collections</a>
+            </div>
 
-            <ul className="flex justify-end space-x-5">
-                <li>
-                    <a href="https://twitter.com/3blocks_agency"className="link link-hover hover:text-blue-500"> <FaTwitter /></a>
-                </li>
-                <li>
-                    <a href="https://discord.gg/64r5JZ7C" className="link link-hover hover:text-indigo-600"> <FaDiscord /> </a>
-                </li>
-                <li>
-                    <a href="mailto:3blocks_dagency@gmail.com" className="link link-hover hover:text-red-600"> <FiMail /> </a>
-                </li>
-            </ul>
-        </header>
+            <div>
+                <span className="footer-title">Development</span>
+                <a className="link link-hover">Spot-on</a>
+            </div>
+
+            <div>
+                <span className="footer-title">Finance</span>
+                <a className="link link-hover">Treasury</a>
+            </div>
+
+        </footer>
     )
-  }
 
-export default Header
+export default Footer

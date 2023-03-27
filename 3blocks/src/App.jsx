@@ -1,4 +1,5 @@
 import Header from './Header'
+import Homepage from './Homepage'
 import './App.css'
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
+      <Homepage />
     </div>
   )
 }

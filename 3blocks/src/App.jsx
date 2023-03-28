@@ -6,12 +6,14 @@ import Homepage from './Homepage'
 import Finance from './Finance';
 import Development from './Development';
 import Creation from './Creation';
+import Collections from './Collections';
 
 // Import Routes
 import { Route, Routes } from "react-router-dom";
 
 // Import CSS
 import './App.css'
+
 
 
 const App = () => {
@@ -41,6 +43,11 @@ const App = () => {
         <Route
           path='/creation'
           element={<Creation />}
+        />
+
+        <Route
+          path='/collections'
+          element={<Collections />}
         />
 
       </Routes>

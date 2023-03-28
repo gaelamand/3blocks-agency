@@ -69,6 +69,10 @@ const Homepage = () => (
             </div>
         </div>
 
+        <div className="flex justify-end mr-48 mb-8">
+    <a href="#" className="rounded-lg border-white border-2 px-4 py-2">Back to top <span>&#8593;</span></a>
+</div>
+
         
     </div>
     )

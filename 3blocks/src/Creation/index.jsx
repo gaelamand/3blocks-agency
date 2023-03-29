@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import joconde from "../assets/joconde.jpg"
+import Alienopedia from "../assets/Alienopedia.png"
+import bluefren from "../assets/bluefren.png"
+
 
 const Creation = () => (
 
@@ -15,43 +17,28 @@ const Creation = () => (
         </div>
 
         {/* Collections paragraph */}
-        <div className="flex flex-col my-28">
-            <div className="flex w-full justify-center mb-20">
-                <div class="flex items-center pr-14">
-                    <img className="w-72" src={joconde} alt="Cards projects" />
-                </div>
+        <div className="flex flex-col mt-28">
+            <div className="flex justify-center mb-10">
+                    <img className="w-96" src={Alienopedia} alt="Cards projects" />
                 <div class="flex flex-col justify-center gap-4 w-1/3">
                     <h3 class="font-bold text-5xl">The Alienopedia</h3>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsa mollitia, nobis accusantium cupiditate necessitatibus?</p>
-                    <Link to="/">
+                    <Link to="/Collections">
                         <button class="btn btn-outline hover:text-black w-32 text-base">Explore {">"} </button>
                     </Link>
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mb-20">
+            <div className="flex justify-center mb-10">
                 <div class="flex flex-col justify-center gap-4 w-1/3">
-                    <h3 class="font-bold text-5xl">Blue fren</h3>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsa mollitia, nobis accusantium cupiditate necessitatibus? </p>
+                    <h3 class="font-bold text-5xl text-end">Blue fren</h3>
+                    <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsa mollitia, nobis accusantium cupiditate necessitatibus? </p>
                     <Link to="/">
-                        <button class="btn btn-outline hover:text-black w-32 text-base">Explore {">"} </button>
+                        <button class="btn btn-outline hover:text-black w-32 text-base ml-72">Explore {">"} </button>
                     </Link>
                 </div>
-                <div class="flex items-center pl-14">
-                    <img className="w-72" src={joconde} alt="Cards projects" />
-                </div>
-            </div>
-
-            <div className="flex w-full justify-center mb-20">
-                <div class="flex items-center pr-14">
-                    <img className="w-72" src={joconde} alt="Cards projects" />
-                </div>
-                <div class="flex flex-col justify-center gap-4 w-1/3">
-                    <h3 class="font-bold text-5xl">La Djoconde</h3>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsa mollitia, nobis accusantium cupiditate necessitatibus? </p>
-                    <Link to="/">
-                        <button class="btn btn-outline hover:text-black w-32 text-base">Explore {">"} </button>
-                    </Link>
+                <div class="">
+                    <img className="w-96" src={bluefren} alt="Cards projects" />
                 </div>
             </div>
         </div>

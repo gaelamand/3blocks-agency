@@ -1,5 +1,6 @@
 import React from "react";
 import trois from '../assets/trois.png'
+import { Link } from "react-router-dom";
 
 const Footer = () => (
 
@@ -11,7 +12,7 @@ const Footer = () => (
 
             <div>
                 <span className="footer-title">About us</span>
-                <a className="link link-hover">Vision</a>
+                <Link to="/vision" className="link link-hover">Vision </Link>
                 <a className="link link-hover">Term of use</a>
             </div>
 
@@ -22,7 +23,7 @@ const Footer = () => (
 
             <div>
                 <span className="footer-title">Development</span>
-                <a className="link link-hover">Spot-on</a>
+                <a className="link link-hover">Development</a>
             </div>
 
             <div>

@@ -13,20 +13,20 @@ const Finance = () => (
 
         {/* Coin + Treasury */}
         <div className="flex h-screen">
-    <div className="flex items-center justify-center">
-        <img className="w-1/2" src={uniqueCoin} alt="coin" />
-        <div className="flex flex-col w-96 justify-center">
-            <div className="flex items-center mb-2">
-                <GiOpenChest className="text-4xl" />
-                <h5 className="font-bold text-4xl ml-2">Treasury</h5>
+            <div className="flex items-center justify-center">
+                <img className="w-1/2" src={uniqueCoin} alt="coin" />
+                <div className="flex flex-col w-96 justify-center">
+                    <div className="flex items-center mb-2">
+                        <GiOpenChest className="text-4xl" />
+                        <h5 className="font-bold text-4xl ml-2">Treasury</h5>
+                    </div>
+                    <p className="text-lg">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam fugit deleniti facilis provident ullam cumque soluta similique, magni voluptate inventore dicta nam, aut voluptas rem enim saepe nemo amet ad?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero laborum perspiciatis quam saepe rerum necessitatibus animi nam, ipsam quae sunt quaerat voluptas expedita tempore laboriosam, amet sit quas molestiae.
+                    </p>
+                </div>
             </div>
-            <p className="text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam fugit deleniti facilis provident ullam cumque soluta similique, magni voluptate inventore dicta nam, aut voluptas rem enim saepe nemo amet ad?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero laborum perspiciatis quam saepe rerum necessitatibus animi nam, ipsam quae sunt quaerat voluptas expedita tempore laboriosam, amet sit quas molestiae.            
-            </p>
         </div>
-    </div>
-</div>
     </div>
 
 )

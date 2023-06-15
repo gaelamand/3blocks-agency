@@ -7,6 +7,7 @@ import Finance from './Finance';
 import Development from './Development';
 import Creation from './Creation';
 import Collections from './Collections';
+import Vision from './Vision';
 
 // Import Routes
 import { Route, Routes } from "react-router-dom";
@@ -48,6 +49,11 @@ const App = () => {
         <Route
           path='/collections'
           element={<Collections />}
+        />
+
+        <Route
+          path='/vision'
+          element={<Vision />}
         />
 
       </Routes>

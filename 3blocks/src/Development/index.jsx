@@ -8,17 +8,23 @@ import media from "../assets/media.png"
 
 const Development = () => (
 
+
+
+
+
+    
+
     // Main container
-    <div className="flex ">
+    <div className="flex">
         {/* Stiky Development text */}
-        <div className="flex flex-col w-44 mt-36 ml-32">
+        <div className="flex flex-col w-44 mt-36 ml-32 fixed ">
             <h4 className="text-2xl font-bold">
                 Development
             </h4>
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sint ex cum accusantium voluptatem explicabo voluptatibus repellendus ratione eligendi delectus quam sunt vel, molestiae veniam minima quaerat, architecto adipisci non!</p>
         </div>
 
-        <div className="flex flex-col justify-center items-center w-2/3 ml-24 overflow-y ">
+        <div className="flex flex-col justify-center items-center w-2/3 ml-96">
             <img className="mt-24" src={banner3blocks} alt="Bureaux 3blocks" />
             <div className="grid grid-cols-2 w-full gap-10 my-10">
                 <div>

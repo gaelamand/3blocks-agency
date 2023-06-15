@@ -3,6 +3,7 @@ background: linear-gradient(to bottom, #04060C, #0B1525, #162031, #0D1425, #0910
 /* display: flex;
 flex-direction: column;
 height: 100vh; */
+/* height: 100vh; */
 }
 
 body::-webkit-scrollbar {
